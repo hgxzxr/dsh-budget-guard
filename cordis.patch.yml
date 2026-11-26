@@ -1,0 +1,8 @@
+- insert:
+    - id: budget-guard
+      name: '@local/budget-guard'
+      config:
+        # 单次模型调用（一次回复）用掉多少 token 就停下来问你。
+        # 100000 = 10 万；想更早被拦就调小，例如 20000。
+        threshold: 100000
+        unitNote: '单位是 token，按 provider 上报的用量算。100000 = 10 万，20000 = 2 万，500000 = 50 万。'

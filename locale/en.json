@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Token budget guard",
+    "description": "Judges one model call at a time: when a single reply used more tokens than configured, the next tool call pauses for your answer. Choose continue to run it, or stop to end the turn with a summary. Set the number on the budget-guard row in cordis.patch.yml (threshold, default 100000)."
+  }
+}

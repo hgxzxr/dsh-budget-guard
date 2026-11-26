@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Token 预算守卫",
+    "description": "按单次模型调用的 token 用量判断：一次回复超过你设的数，下一次工具调用前先停下来问你。选「继续」放行，「停在这里」立即收尾。阈值在 cordis.patch.yml 的 budget-guard 行里改（threshold，默认 100000 = 10 万）。"
+  }
+}
